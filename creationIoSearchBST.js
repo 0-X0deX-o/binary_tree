@@ -1,0 +1,10 @@
+load("oreillyBinaryTree.js");
+var nums = newBST(23);
+var nums = newBST(45);
+var nums = newBST(16);
+var nums = newBST(37);
+var nums = newBST(3);
+var nums = newBST(99);
+var nums = newBST(22);
+print("Inorder traversal ");
+nums.inOrder(nums.root);
